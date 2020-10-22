@@ -1,0 +1,16 @@
+<!--
+theme name:		Angular Artwork
+version:		1.0
+author:			Elratauru
+email:			alforata@gmail.com
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<variables>
+		<systemColor>d32f2f</systemColor>
+	</variables>
+
+</theme>

@@ -1,0 +1,220 @@
+<!--
+theme name:		Angular Artwork
+version:		1.0
+author:			elratauru
+email:			alforata@gmail.com
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<!--colors or dark-->
+	<include>./assets/colors/colors.xml</include>
+	
+	<include>./assets/aspectratios/5_4.xml</include>
+	
+	<view name="system">
+	
+		<image name="logo">
+			<path>./assets/logos/systemselect/${system.theme}.svg</path>
+			<color>ffffff</color>
+		</image>
+		
+		<image name="background" extra="true">
+			<path>./assets/backgrounds/${system.theme}.png</path>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
+		</image>
+		
+		<text name="helpsystem" extra="true">
+			<text>Start - Menu  |  X - Random  |  A - Select</text>
+			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
+			<origin>0.5 0.5</origin>
+			<zIndex>71</zIndex>
+			<color>ffffff</color>
+		</text>
+		
+	</view>
+	
+	<view name="system, basic, detailed, video">
+		
+		<image name="sidebar" extra="true">
+			<path>./assets/carousel1.svg</path>		
+			<color>${systemColor}</color>
+			<zIndex>70</zIndex>
+		</image>
+	
+	</view>
+	
+	<view name="basic">
+		
+		<image name="none" extra="true">
+			<path>./assets/default.png</path>
+			<zIndex>69</zIndex>
+		</image>
+		
+	</view>
+	
+	<view name="detailed, video">
+
+		<image name="background" extra="true">
+			<path>./assets/50.png</path>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
+			<zIndex>68</zIndex>
+		</image>
+		
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<zIndex>67</zIndex>
+			<pos>0.5 0.5</pos>
+			<maxSize>1 1</maxSize>
+		</image>
+		
+		<image name="md_marquee" extra="true">
+			<origin>0.5 0.5</origin>
+			<zIndex>71</zIndex>
+		</image>
+		
+		<text name="md_description">
+			<forceUppercase>0</forceUppercase>
+			<zIndex>71</zIndex>
+			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_lbl_developer, md_developer, md_lbl_players, md_players, md_lbl_releasedate, md_lbl_rating">
+			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
+			<color>ffffff</color>
+			<zIndex>71</zIndex>
+			<origin>0 0</origin>
+		</text> 
+<!-------------RELEASE------------------->			
+		<datetime name="md_releasedate">
+			<format>%Y</format>
+			<zIndex>71</zIndex>
+			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
+			<color>ffffff</color>
+			<origin>0 0</origin>
+		</datetime>	
+<!-------------RATINGS------------------->					
+		<rating name="md_rating">
+			<color>ffffffff</color>
+			<origin>0 0</origin>
+			<filledPath>./assets/rating_filled.svg</filledPath>
+			<unfilledPath>./assets/rating_unfilled.svg</unfilledPath>
+			<zIndex>80</zIndex>
+		</rating>
+		
+	</view>
+	
+	<view name="basic, detailed, video">
+		
+		<image name="gradientbar" extra="true">
+			<path>./assets/box.png</path>
+			<color>00000095</color>
+			<origin>0 0</origin>
+			<pos>0 0.765625</pos>
+			<size>0.6 0.234375</size>
+			<zIndex>69</zIndex>
+		</image>
+		
+		<image name="bg2" extra="true">
+			<path>./assets/box.png</path>
+			<color>000000</color>
+			<zIndex>66</zIndex>
+		</image>
+		
+		<image name="dividerline" extra="true">
+			<path>./assets/box.png</path>
+			<color>ffffff</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.7745241581259151 0.78</pos>
+			<size>0.365 0.001</size>
+			<zIndex>71</zIndex>
+		</image>
+		
+		<text name="md_lbl_lastplayed, md_lbl_publisher, md_publsher, md_lbl_playcount, md_playcount">
+			<pos>1 1</pos>
+		</text>
+		
+		<image name="logo">		
+			<path>./assets/logos/gamelist/${system.theme}.svg</path>		
+			<zIndex>71</zIndex>
+			<origin>0.525 0.5</origin>
+		</image>
+		
+		<text name="helpsystem" extra="true">
+			<text>A - Launch  |  B - Back  |  X - Random  |  Y - Favorite</text>
+			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
+			<origin>0.5 0.5</origin>
+			<zIndex>71</zIndex>
+			<color>ffffff</color>
+		</text>
+		
+		<textlist name="gamelist">
+			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<horizontalMargin>0.01</horizontalMargin>
+			<lineSpacing>2</lineSpacing>
+			<pos>0.5951683748169839 0.20442708333333331</pos>
+			<zIndex>71</zIndex>
+			<size>0.354 0.49088541666</size>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>ffffff</secondaryColor>
+			<selectorColor>ffffff</selectorColor>
+			<selectorImagePath>./assets/selector.png</selectorImagePath>
+			<selectorHeight>0.04</selectorHeight>
+			<selectorOffsetY>-0.0035</selectorOffsetY>
+			<alignment>left</alignment>
+		</textlist> 
+		
+	</view>
+	
+	<view name="video">
+		
+		<video name="md_video">
+			
+			<delay>1</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<zIndex>69</zIndex>
+			<pos>0.295 0.4</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.6 0.6</maxSize>
+		</video>
+	
+	</view>
+	
+	<feature supported="carousel">
+  
+		<view name="system">
+
+		<carousel name="systemcarousel">
+			<type>vertical</type>
+			<pos>0.6603221083455344 0.171875</pos> 
+			<size>0.225 0.66</size> 
+			<color>00000000</color>
+			<logoScale>1</logoScale>
+			<logoSize>0.21815519765 0.6614583</logoSize>
+			<maxLogoCount>1</maxLogoCount>
+			<zIndex>76</zIndex>
+		</carousel>
+		
+		<text name="systemInfo">
+			<backgroundColor>dddddd00</backgroundColor>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.03</fontSize>
+			<pos>0 0</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.01 0.01</size>
+			<forceUppercase>0</forceUppercase>
+		</text>
+
+  </view>
+
+</feature>
+</theme>
+			
