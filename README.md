@@ -17,10 +17,11 @@ It's designed to fit an Arcade1up 5:4 screen (1st and 2nd generation screens), s
 
 ### System Select 
 
-![CPS1 Artwork](screenshots/cps1.png)  | ![Naomi Artwork](screenshots/naomi.png) 
+![CPS1 Artwork](screenshots/cps1.png)
+
+![Arcade Artwork](screenshots/arcade.png) | ![Naomi Artwork](screenshots/naomi.png) 
 :-------------------------:|:-------------------------:
-![Atomiswave Artwork](screenshots/atomiswave.png)  | ![NeoGeo Artwork](screenshots/neogeo.png) 
-![Arcade Artwork](screenshots/arcade.png) 
+![Atomiswave Artwork](screenshots/atomiswave.png) | ![NeoGeo Artwork](screenshots/neogeo.png) 
 
 ### Game Selection 
 
