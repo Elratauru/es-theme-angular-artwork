@@ -13,6 +13,22 @@ It adds many features as:
 As lilbud did before, I made this for my own personal cabinet... and this is because so many people requested me to share it. 
 It's designed to fit an Arcade1up 5:4 screen (1st and 2nd generation screens), so if you need it for a 4:3 screen, you will have to adjust a few things... I don't plan to do it myself, so have fun!
 
+## Screenshots
+
+### System Select 
+
+![CPS1 Artwork](screenshots/cps1.png)  | ![Naomi Artwork](screenshots/naomi.png) 
+:-------------------------:|:-------------------------:
+![Atomiswave Artwork](screenshots/atomiswave.png)  | ![NeoGeo Artwork](screenshots/neogeo.png) 
+![Arcade Artwork](screenshots/arcade.png) 
+
+### Game Selection 
+
+![Dreamcast Artwork](screenshots/dreamcast.png) Game Cover (or Flyer) | ![Dreamcast Video Artwork](screenshots/dreamcast-video.png) Video Playback
+:-------------------------:|:-------------------------:
+![Neo Geo Art Artwork](screenshots/neogeo-art.png) **Game Flyer** | ![More Flyer Artwork](screenshots/more-art.png) **Game Flyer**
+
+
 ## Licence
 
 Same as the original theme, this theme has a creative commons CC-BY-NC-SA licence.
